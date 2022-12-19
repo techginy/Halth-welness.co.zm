@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  cursor: pointer;
+}
+
+
+.header{
+  width: 100%;
+  height: 10vh;
+  background-color :white;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  z-index: 1;
+  border-bottom: 3px solid rgb(255, 31, 50);
+}
+
+.nav-links ul li{
+display: inline-block;
+padding: 10px 20px;
+position: relative;
+right: 560px;
+z-index: 3;
+}
+
+
+.nav-links ul li a{
+  color: black;
+  font-size: 18px;
+}
+
+
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0;
+  height: 4px;
+  background: rgb(70, 190, 106);
+  margin: auto; 
+  display: block;
+  transition: 1s;
+
+}
+
+.nav-links ul li:hover ::after{
+  width: 100%;
+}
+
+
+
+
+nav img{
+width: 380px;
+z-index: 3;
+}
+
+.doc{
+  width: 140px;
+  position: absolute;
+  top: -60px;
+  right: -565px;
+}
+
+.heart{
+  position: absolute;
+  top: 50px;
+  left:50%;
+  width: 100px;
+  z-index: 2;
+}
+
+.heart2{
+  position: absolute;
+  top: 59px;
+  left:41%;
+  width: 40px;
+  z-index: 2;
+}
+
+
+
+.contact{
+  margin-top: 10px;
+  position: absolute;
+  top: 150px;
+}
+
+
+/*--------------------------------------------------------------------------icons fitting------------------*/
+.thanku{
+  position: absolute;
+  top: 500px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  left: 50%;
+  z-index: 7;
+
+
+
+}
+
+
+.getback{
+  position: absolute;
+  top: 550px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  left: 50%;
+  color: white;
+  transition: 1s;
+  background: rgb(0, 131, 0);
+  padding: 20px 60px;
+  margin-top: 20px;
+  z-index: 7;
+}
+
+
+.getback:hover{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background: rgb(26, 238, 26);
+}

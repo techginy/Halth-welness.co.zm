@@ -1,0 +1,535 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  cursor: pointer;
+}
+
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(About\ page\ design.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header1{
+  width: 100%;
+  height: 100vh;
+  background: rgb(60, 179, 96);
+  position: relative;
+  display: none;
+  border-top: 1px solid rgb(60, 179, 96);
+}
+
+
+nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  z-index: 1;
+  border-bottom: 3px solid rgb(255, 31, 50);
+}
+
+.nav-links ul li{
+display: inline-block;
+padding: 10px 20px;
+position: relative;
+right: 560px;
+z-index: 3;
+}
+
+
+.nav-links ul li a{
+  color: black;
+  font-size: 18px;
+}
+
+
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0;
+  height: 4px;
+  background: rgb(70, 190, 106);
+  margin: auto; 
+  display: block;
+  transition: 1s;
+
+}
+
+.nav-links ul li:hover ::after{
+  width: 100%;
+}
+
+
+
+
+nav img{
+width: 380px;
+z-index: 3;
+}
+
+.doc{
+  width: 140px;
+  position: absolute;
+  top: -60px;
+  right: -565px;
+}
+
+.heart{
+  position: absolute;
+  top: 50px;
+  left:50%;
+  width: 100px;
+  z-index: 2;
+}
+
+.heart2{
+  position: absolute;
+  top: 59px;
+  left:41%;
+  width: 40px;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+.meds1{
+  position: absolute;
+  top: 180px;
+  right: 390px;
+  width: 70px;
+  z-index: 4;
+  opacity: 0.5;
+ padding: 5px;
+  transition: 1s;
+}
+
+.meds1:hover{
+  border: 2px solid white;
+  width: 80px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+
+
+.meds2{
+  position: absolute;
+  top: 730px;
+  right: 190px;
+  width: 70px;
+  z-index: 4;
+  opacity: 0.5;
+  padding: 5px;
+  transition: 1s;
+}
+
+.meds2:hover{
+  border: 2px solid white;
+  width: 80px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+
+
+
+.meds3{
+  position: absolute;
+  top: 670px;
+  right: 840px;
+  width: 70px;
+  z-index: 4;
+  opacity: 0.5;
+  padding: 5px;
+  transition: 1s;
+}
+
+.meds3:hover{
+  border: 2px solid white;
+  width: 80px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+
+.meds4{
+  position: absolute;
+  top: 870px;
+  right: 1340px;
+  width: 70px;
+  z-index: 4;
+  opacity: 0.5;
+  padding: 5px;
+  transition: 1s;
+}
+
+
+.meds4:hover{
+  border: 2px solid white;
+  width: 80px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+
+/*-----------------------------------------------mission---------------------------------------*/
+
+
+.full-background{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 570vh;
+  top: 120px;
+  z-index: -1;
+  
+}
+
+.mission{
+  font-size: 50px;
+  color: black;
+  font-weight: 600;
+
+}
+
+.about-mission{
+position: absolute;
+top: 300px;
+left: 350px;
+}
+
+.about-mission h1{
+  margin-bottom: 20px;
+}
+
+
+.about-mission p{
+  font-size: 20px;
+  color: white;
+}
+
+
+/*-----------------------------------------------section 2---------------------------------------*/
+
+.space{
+ 
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 33%;
+  align-items: center;
+  padding: 40px;
+
+}
+
+.build{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+
+}
+
+.general-data{
+margin-right: 40px;
+}
+
+
+
+/*-----------------------------------------------images 2---------------------------------------*/
+
+.clinic{
+  width: 250px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  transition: 1s;
+}
+
+.clinic:hover{
+  box-shadow: 0 0 10px 0;
+}
+
+/*-----------------------------------------------Toilet--------------------------------------*/
+
+
+
+.toilet{
+  width: 250px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  transition: 1s;
+}
+
+
+
+.toilet:hover{
+  box-shadow: 0 0 10px 0;
+}
+
+
+/*-----------------------------------------------elivator--------------------------------------*/
+
+
+
+.elivator{
+  width: 250px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  transition: 1s;
+}
+
+.elivator:hover{
+  box-shadow: 0 0 10px 0;
+}
+
+p{
+  font-size: 19px;
+}
+
+
+
+.location{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
+/*-----------------------------------------------elivator--------------------------------------*/
+
+.section-3{
+margin-top: 20px;
+}
+
+.layout-1{
+width: 80%;
+position: absolute;
+left: 10.5%;
+top: 182%;
+padding-bottom: 2%;
+transition: 1s;
+}
+
+
+.layout-1:hover{
+  box-shadow: 0 0 10px 0;
+}
+
+/*-----------------------------------------------layouts--------------------------------------*/
+
+
+.layouts{
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 174%;
+  left: 0%;
+  z-index: 5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 777px;
+  padding-right: 795px;
+  font-size: 40px;
+  background-color: rgb(70, 190, 106);
+  transition: 1s;
+
+}
+
+.layouts:hover{
+  background-color: rgb(41, 150, 74);
+  color: white;
+  
+}
+
+
+/*-----------------------------------------------lgrndfloor-------------------------------------*/
+
+.grandfloor{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 17%;
+  font-size: 20px;
+  color:rgb(70, 190, 106);
+
+  
+
+}
+
+
+
+/*-----------------------------------------------Section 4-------------------------------------*/
+
+.section-4{
+  margin-top: 12%;
+}
+
+.green{
+  text-align: center;
+  background-color: rgb(70, 190, 106);
+  padding: 40px;
+}
+
+
+.green h1{
+  color: black;
+  transition: 1s;
+}
+.green h1:hover{
+color: white;
+}
+
+
+/*-----------------------------------------------Section 4-------------------------------------*/
+.layout-23{
+  width: 60%;
+  position: absolute;
+  left: 20.5%;
+  top: 257%;
+  padding-bottom: 2%;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------Section 5-------------------------------------*/
+
+
+
+.section-5{
+  margin-top: 12%;
+}
+
+
+.section-5 h1{
+  position: absolute;
+  left: 1.1%;
+  top: 335%;
+  font-size: 30px;
+  background-color: rgb(70, 190, 106);
+  padding: 5px 82px;
+  transition: 1s;
+}
+
+
+.section-5 h1:hover{
+  color: white;
+}
+
+
+
+
+
+.green1{
+  text-align: center;
+ 
+  padding: 40px;
+ 
+}
+
+
+.green1 h1{
+  color: black;
+  transition: 1s;
+}
+.green h1:hover{
+color: white;
+}
+
+
+/*-----------------------------------------------Section 4------------------------------------*/
+.layout-24{
+  width: 60%;
+  position: absolute;
+  left: 20.5%;
+  top: 340%;
+  padding-bottom: 2%;
+  transition: 1s;
+}
+
+
+
+
+/*-----------------------------------------------Section 6------------------------------------*/
+
+
+.section-6{
+  margin-top: 12%;
+}
+
+
+
+.secondlast-3{
+  text-align: center;
+  background-color: rgb(70, 190, 106);
+  padding: 5px 40px;
+
+  margin-bottom: 20px;
+  position: absolute;
+  right: 1.1%;
+  top: 423%;
+}
+
+
+.layout-27{
+  width: 60%;
+  position: absolute;
+  left: 20.5%;
+  top: 428%;
+  padding-bottom: 2%;
+}
+
+/*-----------------------------------------------Section 7------------------------------------*/
+
+.section-7{
+  margin-top: 12%;
+}
+
+.secondlast-4{
+  text-align: center;
+  background-color: rgb(70, 190, 106);
+  padding: 5px 82px;
+  margin-bottom: 20px;
+  position: absolute;
+  font-size: 20px;
+  left: 1.1%;
+  top: 506%;
+}
+
+
+
+
+.layout-28{
+  width: 60%;
+  position: absolute;
+  left: 20.5%;
+  top: 511%;
+  padding-bottom: 2%;
+}
